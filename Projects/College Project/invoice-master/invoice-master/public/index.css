@@ -1,0 +1,247 @@
+*{
+    margin: auto;
+    /* font-family: 'Meie Script', cursive;
+font-family: 'Monsieur La Doulaise', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+}
+#invoice{
+    width: 21cm;
+    height: 29.7cm;
+    margin:0 auto;
+    border: 1px solid black;
+    clear: both;
+
+}
+
+#invoice-left{
+    font-family: 'Poppins', sans-serif; 
+    width: 30%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    float: left;
+}
+
+.logo img{
+    width: 15rem;
+    height:10rem;
+    display: block;
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invoice-left-top{
+    margin-top: 10rem;
+}
+
+.billing{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.billing p{
+    font-size: small;
+}
+
+
+.due{
+    margin:6rem 5px 10px 5px;
+    padding:10px 0 10px 0;
+    background-color: white;
+    color:black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#invoice-right{
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    height:100%;
+    background-color: white;
+    float: right;
+}
+/* .invoice-right-top{
+    background-color: rgb(187, 187, 187);
+} */
+header{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 15%;
+    letter-spacing: 3px;
+    line-height: 2;
+    display: block;
+    padding-right: 1rem;
+    text-align: right;
+}
+
+.main-table{
+    border-spacing: 0.5rem;
+}
+
+.main-table tr th{
+    padding: 1rem;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    border-color: black;
+    border-width:2px ;
+}
+
+.main-table tr td{
+    padding: 1.5rem;
+}
+.unit-price{
+    text-align: center;
+}
+
+.qty{
+    text-align:center;
+}
+
+.amount{
+    text-align: right;
+}
+
+.line{
+    width: 100%;
+    height:2px;
+    background-color: black;
+}
+
+.table-calc{
+    font-weight: 500;
+    clear: both;
+}
+.fl-1{
+    padding:1.5rem;
+    margin-left:0.5rem;
+    float: left;
+}
+
+.fl-2{
+    padding:1.5rem;
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.total{
+    clear: both;
+    display: table;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.auth{
+    padding-top: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 70%;
+}
+
+.signature{
+    color: black;
+    font-family: 'Meie Script', cursive;
+}
+
+.auth div .underline{
+    width: 10rem;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1rem;
+
+}
+
+.love{
+    margin-top: 7rem;
+    font-size: small;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.love p:not(:nth-child(1)){
+    padding-right: 2rem;
+    border-right: 2px solid black;
+    text-decoration:underline;
+}
+

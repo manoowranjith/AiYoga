@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/floating-guru.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: 'Montserrat', sans-serif; */
+            font-family: 'Roboto', sans-serif;
+            /* font-family: 'Raleway', sans-serif; */
+        }
+
+        .index {
+            clear: both;
+            display: table;
+        }
+
+        .index-left {
+            width: 70%;
+            height: 100vh;
+            float: left;
+            /* border-right: 1px solid black; */
+            /* background-color: rgb(169, 255, 167); */
+            background-color: rgb(230, 238, 255);
+        }
+
+        .index-left_image {
+            margin: 0;
+            padding: 0;
+            display: block;
+            width: 100%;
+            height: 95%;
+        }
+
+        .index-right {
+            /* position: relative; */
+            width: 30%;
+            height: 100vh;
+            float: right;
+            /* background-color: rgb(165, 132, 255); */
+            /* background-color: rgb(179, 177, 255); */
+        }
+
+        h1 {
+            color: rgb(100, 100, 100);
+            padding: 1rem;
+            text-align: center;
+            margin-top: 5rem;
+            /* margin-bottom: 15vh; */
+        }
+
+        .index-right_button {
+            display: flex;
+            justify-content: space-evenly;
+            /* margin-top: 2rem; */
+        }
+
+        .index-right_button button {
+            background-color: #000000;
+            color: white;
+            padding: 15px 60px;
+            border: 0;
+            border-radius: 15px;
+            font-size: medium;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .index-right_button button:hover {
+            transform: scale(1.1, 1.1);
+        }
+
+        .index-right_input {
+            margin: 4.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .index-right_input input {
+            /* position: relative; */
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 10px;
+            border: 2px solid black;
+            outline: none;
+            font-family: 'poppins', sans-serif;
+            font-weight: lighter;
+            font-size: 1rem;
+        }
+
+        .index-right_input a:link,
+        :visited {
+            color: black;
+            padding: 1rem;
+            text-decoration: none;
+        }
+
+        .index-right_input a:hover {
+            transform: scale(1.03);
+        }
+
+        .google-signin {
+            margin-top: 5rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .google-signin_button {
+            padding: 1rem;
+            border-radius: 100%;
+            border: 1px solid rgb(209, 209, 209);
+            background-color: white;
+            outline: none;
+        }
+
+        .google-signin_button:hover {
+            box-shadow: 0 0 10px #000000;
+            transform: translateY(-2px);
+        }
+
+        .google-signin_button:active {
+            transform: translateY(2px);
+        }
+
+        .google-signin_button_image {
+            margin: 0;
+            padding: 0;
+            display: block;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="index">
+        <div class="index-left">
+            <img class="index-left_image" src="./images/yoga1.svg" alt="" srcset="">
+        </div>
+        <div class="index-right">
+            <h1>
+                <a style="text-decoration: none;" href="/">Yoga AI</a>
+            </h1>
+            <form action="/forget" method="post" autocomplete="off">
+                <div class="index-right_input">
+                    <img style="width: 100%; height: 5rem;" src="./images/email.svg" alt="">
+                    <br>
+                    <input type="email" name="email" placeholder="&#x1F4E7;  Enter your email">
+                    <br>
+                    <div class="index-right_button">
+                        <button type="submit">Submit</button>
+                    </div>
+                    
+
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
